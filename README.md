@@ -60,7 +60,8 @@ const client = new Client({
 
 client.connect()
 client.query('SELECT * from public."customers"', (err, res) => {
-  console.log(err, JSON.stringify(res.rows))
+  console.log(err, JSON.stringify(res.rows));
+  client.end();
 }); 
 ```
 More details - https://node-postgres.com/
