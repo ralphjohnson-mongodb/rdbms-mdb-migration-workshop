@@ -1,3 +1,5 @@
+### Note: The MySQL database referred to in this repository is no longer operational. We have left the repo available for future reference.
+
 # rdbms-mdb-migration-workshop
 
 Additional help can be found at the site of a slightly different workshop https://github.com/mcinteerj/rdbms-mdb-migration-workshop
